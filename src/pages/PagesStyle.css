@@ -1,0 +1,123 @@
+.home {
+      display: flex;
+      justify-content: space-between;
+      padding: 50px 12rem;
+      align-items: center;
+      height: 130vh;
+}
+
+.home .top-img {
+      height: 200px;
+}
+
+.home .left .hero-1 {
+      font-size: 30px;
+      color: var(--bg-blue);
+      margin-bottom: 10px;
+}
+
+.home .left .hero-name {
+      font-size: 5.5rem;
+      font-weight: 700;
+      color: var(--bg-blue);
+}
+
+.home .png-logo {
+      float: -10px left;
+      display: inline;
+}
+.png-logo-2 {
+      float: right;
+      align-items: center;
+}
+
+.home .left .hero-name span {
+      color: var(--button);
+}
+
+.home .left .hero-btn {
+      margin-top: 20px;
+      border-radius: 6px;
+      color: white;
+      font-family: 'poppins';
+      padding: 15px 40px;
+      border: none;
+      font-size: 17px;
+      background: var(--bg-blue);
+      cursor: pointer;
+      transition: 0.3s ease all;
+
+}
+
+.home .left .hero-btn:hover {
+      box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      transition: 0.3s ease all;
+}
+
+.home .left .hero-title {
+      font-size: 2rem;
+      color: var(--bg-blue);
+      margin-top: 1rem;
+}
+
+.home .left .hero-title span {
+      color: var(--button);
+}
+
+.home .right .hero-img {
+      height: 520px;
+}
+
+/* About start */
+.about{
+      display: flex;
+      justify-content: center;
+      gap: 15%;
+      padding: 15px 15rem;
+      height: 80vh;
+      margin-top: 100px;
+}
+.about .left .about-title{
+      color: var(--button);
+      font-size: 20px;
+      font-weight: bold;
+      text-transform: uppercase;
+
+}
+.exp-title{
+      margin: 20px 0px;
+      font-size: 52px;
+      color: var(--bg-blue);
+      font-weight: bold;
+      
+
+}.exp-title span{
+      color: var(--button);
+}.about-para{
+      font-size: 25px;
+      color:var(--bg-blue);
+      text-align: center;
+}
+.about-main{
+      background: whitesmoke;
+      height: 40vh;
+      width: 600px;
+      margin: 30px ;
+      border-radius: 10px;
+
+}
+.about-button{
+      padding-top: 40px;
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-evenly;
+   
+}
+.about-ul{
+      display: flex;
+      flex-direction: column;
+      padding: 10px 50px;
+      color: var(--button);
+      font-size: 20px;
+      font-family: 'poppins';
+}

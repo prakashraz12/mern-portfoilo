@@ -1,0 +1,19 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+font-family: "Roboto";
+}
+:root{
+  --bg-blue:rgb(8,32,58);
+  --button:rgb(167,12,154);
+  --header-back:rgb(238,244,250);
+  --body:rgb(231,239,248);
+  --about-bg:rgb(227,237,247);
+}
+body{
+  background: var(--body);
+
+}
